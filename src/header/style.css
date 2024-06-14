@@ -4,4 +4,16 @@
     margin-right: 144px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    height: 80px;
+}
+
+.header-nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
 }

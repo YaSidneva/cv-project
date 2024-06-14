@@ -1,15 +1,15 @@
+import { headerNavBar } from './headerNavBar';
 import './style.css';
 
 export function header() {
     let header = document.createElement('div');
     header.classList.add('header');
-    let headerLogo = document.createElement('div');
+    let headerLogo = document.createElement('img');
     headerLogo.classList.add('header-logo');
+    headerLogo.setAttribute("src", "../public/logo.png");
     header.appendChild(headerLogo);
 
-    let headerMenu = document.createElement('div');
-    headerMenu.classList.add('header-menu');
-    header.appendChild(headerMenu);
+    header.appendChild(headerNavBar());
 
     return header;
 }
