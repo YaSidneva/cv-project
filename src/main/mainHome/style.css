@@ -1,0 +1,42 @@
+.main-home-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-home-text-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+}
+
+.main-home-text-greet {
+    color: #457B9D;
+}
+
+.home-btn {
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #457B9D;
+    background-color: rgb(69, 123, 157, 0.1);
+    color: #457B9D;
+    font-family: "Sora", sans-serif;
+}
+
+.home-btn:hover {
+    background-color: rgb(69, 123, 157, 0.9);
+    border-color: #dbe6ec;
+    color: #dbe6ec;
+    cursor: pointer;
+}
+
+.main-home-img {
+    width: 300px;
+    border-radius: 20px;
+}
