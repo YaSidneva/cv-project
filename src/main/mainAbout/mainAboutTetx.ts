@@ -1,8 +1,10 @@
+import './style.css';
+
 export function mainAboutText() {
     let mainAboutText = document.createElement('div');
     let mainAboutTextGreet = document.createElement('div');
     mainAboutTextGreet.innerText = 'About';
-    mainAboutTextGreet.classList.add('main-home-text-greet');
+    mainAboutTextGreet.classList.add('main-about-text-greet');
     let mainAboutTextName = document.createElement('h2');
     mainAboutTextName.innerText = 'About me?';
     let mainAboutTextDescr = document.createElement('div');

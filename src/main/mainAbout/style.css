@@ -5,8 +5,15 @@
     margin-top: 80px;
     margin-bottom: 80px;
     justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .main-about-text-container {
     max-width: 50%;
+}
+
+.main-about-text-greet {
+    font-weight: 600;
+    color: #457B9D;
 }

@@ -1,0 +1,33 @@
+.skills {
+    height: 281px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(69, 123, 157, 0.1);
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-skills-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-skills-text-greet {
+    font-weight: 600;
+    color: #457B9D;
+}
+
+.main-skills-img-container {
+    height: 100px;
+    display: flex;
+}
+
+.icon-ts {
+    height: 170px;
+    align-self: center;
+}
