@@ -11,6 +11,7 @@ export function mainSkillsImgContainer() {
     iconJs.src = 'icon-js.svg';
     let iconTs = document.createElement('img');
     iconTs.src = 'icon-ts.svg';
+    iconTs.classList.add('icon-ts');
     let iconReact = document.createElement('img');
     iconReact.src = 'icon-react.svg';
     let iconGit = document.createElement('img');

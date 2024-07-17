@@ -25,6 +25,10 @@
 .main-skills-img-container {
     height: 100px;
     display: flex;
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #457B9D;
 }
 
 .icon-ts {
