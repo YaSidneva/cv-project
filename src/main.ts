@@ -1,3 +1,4 @@
+import { footer } from './footer/footer';
 import './global.css';
 import { header } from './header/header';
 import { mainContent } from './main/mainContent/mainContent';
@@ -8,6 +9,7 @@ export function mainPage() {
 
     mainContainer.appendChild(header());
     mainContainer.appendChild(mainContent());
+    mainContainer.appendChild(footer());
 }
 
 mainPage();

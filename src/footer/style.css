@@ -1,0 +1,36 @@
+.footer {
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(69, 123, 157, 0.1);
+}
+
+.footer-link-img {
+    display: block;
+    width: 30px;
+}
+
+.footer-links-container {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text-greet {
+    color: #457B9D;
+}
+
+.footer-link:hover svg {
+    fill: #457B9D;
+}
+
+.footer-link:hover svg g path {
+    fill: #457B9D;
+}
+
+.icon-gmail:hover svg g path {
+    fill: none;
+    stroke: #457B9D;
+}

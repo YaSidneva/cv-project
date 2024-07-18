@@ -13,10 +13,10 @@
     padding-right: 145px;
     padding-top: 75px;
     padding-bottom: 75px;
-    height: 1036px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 .project-item {
