@@ -1,28 +1,16 @@
+import { headerNavBarElement } from './headerNavBarElement';
 import './style.css';
 
 export function headerNavBar() {
     let headerNavBar = document.createElement('div');
     headerNavBar.classList.add('header-nav-bar');
 
-    let homeLink = document.createElement('a');
-    homeLink.innerText = 'Home';
-    headerNavBar.appendChild(homeLink);
+    headerNavBar.appendChild(headerNavBarElement('Home', '#home'));
+    headerNavBar.appendChild(headerNavBarElement('About', '#about'));
+    headerNavBar.appendChild(headerNavBarElement('Skill', '#skills'));
+    headerNavBar.appendChild(headerNavBarElement('Projects', '#projects'));
+    headerNavBar.appendChild(headerNavBarElement('Contacts', '#contacts'));
 
-    let aboutLink = document.createElement('a');
-    aboutLink.innerText = 'About';
-    headerNavBar.appendChild(aboutLink);
-
-    let skillLink = document.createElement('a');
-    skillLink.innerText = 'Skill';
-    headerNavBar.appendChild(skillLink);
-
-    let projectsLink = document.createElement('a');
-    projectsLink.innerText = 'Projects';
-    headerNavBar.appendChild(projectsLink);
-
-    let contactsLink = document.createElement('a');
-    contactsLink.innerText = 'Contacts';
-    headerNavBar.appendChild(contactsLink);
 
     return headerNavBar;
 }

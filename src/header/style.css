@@ -1,7 +1,7 @@
 .header {
     height: 100px;
-    margin-left: 144px;
-    margin-right: 144px;
+    margin-left: 15px;
+    margin-right: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +9,7 @@
 
 .header-logo {
     height: 80px;
+    margin-right: 50px;
 }
 
 .header-nav-bar {
@@ -16,4 +17,13 @@
     display: flex;
     justify-content: space-between;
     font-size: 28px;
+}
+
+.header-nav-bar-element {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav-bar-element:hover {
+    color: #457B9D;
 }

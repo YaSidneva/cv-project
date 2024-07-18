@@ -4,6 +4,7 @@ import './style.css';
 
 export function mainHome() {
     let mainHomeContent = document.createElement('div');
+    mainHomeContent.id = 'home';
     mainHomeContent.classList.add('main-home-content');
     mainHomeContent.appendChild(mainHomeTextContainer());
     let mainHomeImgContainer = document.createElement('div');

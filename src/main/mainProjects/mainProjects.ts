@@ -4,6 +4,7 @@ import './style.css';
 
 export function mainProjects() {
     let projects = document.createElement('div');
+    projects.id = 'projects';
     projects.classList.add('projects');
     projects.appendChild(mainProjectsTextContainer());
     projects.appendChild(mainProjectsTableContainer());
