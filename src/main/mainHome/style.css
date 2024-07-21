@@ -22,12 +22,13 @@
 
 .home-btn {
     height: 30px;
-    width: 80%;
+    width: 100%;
     border-radius: 5px;
     border: 1px solid #457B9D;
     background-color: rgb(69, 123, 157, 0.1);
     color: #457B9D;
     font-family: "Sora", sans-serif;
+    align-items: baseline;
 }
 
 .home-btn:hover {

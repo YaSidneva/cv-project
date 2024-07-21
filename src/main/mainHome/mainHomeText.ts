@@ -6,7 +6,7 @@ export function mainHomeText() {
     let mainHomeTextName = document.createElement('h2');
     mainHomeTextName.innerText = 'Iana Sidneva';
     let mainHomeTextDescr = document.createElement('div');
-    mainHomeTextDescr.innerText = 'Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi cras fermentum.';
+    mainHomeTextDescr.innerText = `Frontend-developer. Specializing in creating elegant user interfaces. My expertise in technologies and proficiency in coding enable me to deliver projects of high quality and functionality.`;
 
     mainHomeText.appendChild(mainHomeTextGreet);
     mainHomeText.appendChild(mainHomeTextName);

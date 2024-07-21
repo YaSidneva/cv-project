@@ -1,7 +1,7 @@
 import './style.css';
 
 export function mainProjectsProject(src: string, title: string) {
-    let projectItem = document.createElement('a');
+    let projectItem = document.createElement('div');
     projectItem.classList.add('project-item');
 
     let screen = document.createElement('img');

@@ -9,8 +9,8 @@
 }
 
 .projects {
-    padding-left: 145px;
-    padding-right: 145px;
+    /* margin-left: 145px;
+    margin-right: 145px; */
     padding-top: 75px;
     padding-bottom: 75px;
     display: flex;
@@ -19,13 +19,30 @@
     background-color: white;
 }
 
-.project-item {
+/* .project-item {
     border: 2px solid #457B9D;
     border-radius: 5px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+.project-item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    margin-bottom: 40px;
+    border: 2px solid #457B9D;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
 }
 
 .project-item:hover {
@@ -53,12 +70,18 @@
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    height: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .main-projects-table-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px;
+    position: relative;
+    width: 500px;
 }
 
 .controllers {
@@ -85,7 +108,7 @@
     transform: rotate(90deg)
 }
 
-.controller-container {
+.controller-btn {
     height: 50px;
     width: 50px;
     display: flex;
@@ -95,12 +118,28 @@
     border-radius: 5px;
 }
 
-.controller-container:hover {
+.controller-btn:hover {
+    border: none;
     border-color: white;
     background-color: #457B9D;
     cursor: pointer;
 }
 
-.controller-container:hover .arrow {
+.controller-btn:hover .arrow {
     border-bottom: 20px solid white;
+}
+
+.left-slide {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.central-slide {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.right-slide {
+    transform: translateX(100%);
+    opacity: 0;
 }
