@@ -33,6 +33,4 @@ export function header() {
 
     return header;
 }
-document.addEventListener('DOMContentLoaded', () => {
-    document.body.appendChild(header());
-});
+

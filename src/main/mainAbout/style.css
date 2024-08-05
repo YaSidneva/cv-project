@@ -16,3 +16,22 @@
 .main-about-text-greet {
     color: #457B9D;
 }
+
+.main-about-img {
+    width: 100%;
+    min-width: 70%;
+}
+
+@media all and (max-width: 900px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .main-about-text-container {
+        max-width: 100%;
+    }
+
+    .main-about-img {
+        max-width: 70%;
+    }
+}

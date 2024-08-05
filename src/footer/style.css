@@ -18,6 +18,14 @@
 
 }
 
+@media all and (max-width: 462px) {
+    .footer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
 .footer-text-greet {
     color: #457B9D;
 }
