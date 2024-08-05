@@ -27,3 +27,81 @@
 .header-nav-bar-element:hover {
     color: #457B9D;
 }
+
+
+/* burger-menu styles */
+.menu-icon {
+    cursor: pointer;
+    width: 35px;
+    height: 30px;
+    top: 30px;
+    right: 20px;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.menu-icon div {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease-in-out;
+    /* position: absolute; */
+    display: flex;
+}
+
+
+.menu-icon.active .bar1 {
+    transform: rotate(45deg) translate(13px, 5px);
+    bottom: 2;
+}
+
+.menu-icon.active .bar3 {
+    display: none;
+}
+
+.menu-icon.active .bar2 {
+    transform: rotate(-45deg) translate(14px, -5px);
+    bottom: 10px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(69, 123, 157);
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content a:hover,
+.overlay-content a:focus {
+    color: #f1f1f1;
+}
+
+.overlay.show {
+    width: 100%;
+}

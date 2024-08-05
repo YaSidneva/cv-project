@@ -45,10 +45,10 @@ export function mainProjectsControlContainer() {
     };
 
 
-    let arrowPrev = controllers.appendChild(mainProjectsController(rotateCardsRightToLeft));
+    let arrowPrev = controllers.appendChild(mainProjectsController(rotateCardsLeftToRight));
     arrowPrev.classList.add('arrow-prev');
 
-    let arrowNext = controllers.appendChild(mainProjectsController(rotateCardsLeftToRight));
+    let arrowNext = controllers.appendChild(mainProjectsController(rotateCardsRightToLeft));
     arrowNext.classList.add('arrow-next');
     return controllers;
 }
