@@ -5,8 +5,8 @@ import './style.css';
 export function mainProjectsTableContainer() {
     let mainProjectsTableContainer = document.createElement('div');
     mainProjectsTableContainer.classList.add('main-projects-table-container');
-    mainProjectsTableContainer.appendChild(mainProjectsTable());
-    mainProjectsTableContainer.appendChild(mainProjectsControlContainer());
+    let sliderTable = mainProjectsTableContainer.appendChild(mainProjectsTable());
+    mainProjectsTableContainer.appendChild(mainProjectsControlContainer(sliderTable));
 
     return mainProjectsTableContainer;
 }
