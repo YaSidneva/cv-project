@@ -1,16 +1,19 @@
 import './style.css';
 
-export function mainProjectsProject(src: string, title: string) {
-    let projectItem = document.createElement('div');
+export function mainProjectsProject(element: ProjectData) {
+    let projectItem = document.createElement('a');
     projectItem.classList.add('project-item');
+
+    projectItem.href = element.link;
+    projectItem.target = '_blank';
 
     let screen = document.createElement('img');
     screen.classList.add('screen');
-    screen.src = src;
+    screen.src = element.image;
 
     let screenTitle = document.createElement('div');
     screenTitle.classList.add('screen-title');
-    screenTitle.innerText = title;
+    screenTitle.innerText = element.title;
 
     projectItem.appendChild(screen);
     projectItem.appendChild(screenTitle);
