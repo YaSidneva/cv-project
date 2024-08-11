@@ -9,7 +9,7 @@ export function header() {
 
     let headerLogo = document.createElement('img');
     headerLogo.classList.add('header-logo');
-    headerLogo.setAttribute("src", "/logo.png");
+    headerLogo.setAttribute("src", "logo.png");
     header.appendChild(headerLogo);
 
     // header.appendChild(headerNavBar());
