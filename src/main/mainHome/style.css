@@ -44,6 +44,12 @@
     border-radius: 20px;
 }
 
+@media all and (min-width: 1175px) {
+    .main-home-content {
+        justify-content: space-around;
+    }
+}
+
 @media all and (max-width: 800px) {
     .main-home-img-container {
         display: none;
