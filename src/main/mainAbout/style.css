@@ -17,10 +17,11 @@
     color: #457B9D;
 }
 
-.main-about-img {
-    width: 100%;
-    min-width: 70%;
+.mainAboutTextDescr {
+    text-align: justify;
+    margin-bottom: 20px;
 }
+
 
 @media all and (max-width: 900px) {
     .about {

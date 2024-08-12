@@ -59,4 +59,8 @@
     .main-home-text-container {
         width: 100%;
     }
+
+    .home-btn {
+        margin-top: 25px;
+    }
 }
